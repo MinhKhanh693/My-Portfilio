@@ -2,7 +2,7 @@
   "name": "my-portfoli",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://minhkhanh693.github.io/My-Portfilio /",
+  "homepage": "https://minhkhanh693.github.io/My-Portfilio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
