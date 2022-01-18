@@ -1,0 +1,95 @@
+/* skills section styling */
+
+.skills .title::after {
+  content: "what i know";
+}
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+}
+.skills .skills-content .left a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover {
+  color: crimson;
+  background: none;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.skills-content .right .HTML::before {
+  width: 90%;
+  background-color: #F77900 !important;
+}
+.skills-content .right .CSS::before {
+  width: 80%;
+  background-color: #254BDD !important;
+}
+.skills-content .right .JAVASCRIPT::before {
+  width: 80%;
+  background-color: #FBD601 !important;
+}
+.skills-content .right .REACTJS::before {
+  width: 80%;
+  background-color: #0DB5E6 !important;
+}
+.skills-content .right .REACT-NAVITE::before {
+  width: 50%;
+  background-color: #00D8FF !important;
+}
+.skills-content .right .NODEJS::before {
+  width: 65%;
+  background-color: #639A61 !important;
+}
+.skills-content .right .MONGODB::before {
+  width: 65%;
+  background-color: #019547 !important;
+}
+.skills-content .right .EXPERSS-JS::before {
+  background-color: #A6A6A6 !important;
+  width: 65%;
+}
+.skills-content .right .REDUX-TOOLKIT::before {
+  background-color: #7248B6 !important;
+  width: 70%;
+}
