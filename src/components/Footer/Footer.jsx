@@ -5,7 +5,7 @@ export default function Footer() {
     <Fragment>
       <footer>
         <span>
-          Created By <a href="https://www.codingnepalweb.com">MinhKhanh</a> |{" "}
+          Created By <a href="https://www.facebook.com/MinhKhanhh09/">MinhKhanh</a> |{" "}
           <span className="far fa-copyright"></span> 2022 All rights reserved.
         </span>
       </footer>
