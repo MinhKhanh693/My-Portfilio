@@ -2,7 +2,7 @@
 import React from "react";
 import ReactTyped from "react-typed";
 import CVFile from "./../../FIleCV/DoanMinhKhanh_CV.pdf";
-import avatar from "./../../images/avatar1.jpg";
+import avatar from "./../../images/Avatar.jpg";
 import "./About.css";
 export default function About() {
   return (
@@ -16,6 +16,7 @@ export default function About() {
               src={avatar}
               alt=" "
               style={{
+                objectFit:'cover',
                 border: "1px solid transparent",
                 boxShadow:
                   "0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%)",
